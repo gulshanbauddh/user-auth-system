@@ -30,41 +30,4 @@ Check out the live project hosted on InfinityFree:
 ├── logout.php          # Session termination
 └── _mysql.sql        # SQL schema for table setup
 
-### How to Create a GitHub Repository and Upload Your Code
-
-Follow these steps to get your project on GitHub:
-
-#### Step 1: Create a New Repository on GitHub
-1.  Log in to your **GitHub** account.
-2.  Click the **+** icon in the top-right corner and select **New repository**.
-3.  **Repository name:** Enter a name (e.g., `php-auth-system`).
-4.  **Description:** (Optional) Briefly describe your project.
-5.  **Public/Private:** Keep it **Public** if you want to show it in your portfolio.
-6.  Leave "Initialize this repository with..." options unchecked.
-7.  Click **Create repository**.
-
 ```
-#### Step 2: Upload Code via Terminal (Recommended)
-Open your project folder in your terminal or VS Code terminal and run these commands:
-
-1.  **Initialize Git:**
-    ```bash
-    git init
-    ```
-2.  **Add all files:**
-    ```bash
-    git add .
-    ```
-3.  **Commit the changes:**
-    ```bash
-    git commit -m "Initial commit: Added Signup, Login, and Logout features"
-    ```
-4.  **Link to GitHub** (Copy the URL from your new GitHub repo page):
-    ```bash
-    git remote add origin https://github.com/gulshanbauddh/user-auth-system
-    ```
-5.  **Push the code:**
-    ```bash
-    git branch -M main
-    git push -u origin main
-    ```
